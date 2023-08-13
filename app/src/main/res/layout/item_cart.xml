@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/cImage"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="item name"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="item price"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/cQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="quantity"
+            android:textSize="20dp" />
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:backgroundTint="@color/red"-->
+<!--            android:text="Remove"-->
+<!--            app:cornerRadius="10dp"-->
+<!--            android:id="@+id/btnRemove"/>-->
+    </LinearLayout>
+</LinearLayout>
